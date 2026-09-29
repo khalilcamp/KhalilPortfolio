@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "cargo": "Full-stack developer",
+    "resumo": "I build products end to end: React and Next.js front ends, Spring Boot or Node APIs, databases, deployment and monitoring.",
+    "foto": "Photo of Khalil Camargo"
+  },
+  "idioma": {
+    "rotulo": "Language"
+  },
+  "nav": {
+    "rotulo": "Sections",
+    "sobre": "About",
+    "experiencia": "Experience",
+    "projetos": "Projects",
+    "formacao": "Education"
+  },
+  "contato": "Contact",
+  "tecnologias": "Technologies",
+  "sobre": {
+    "paragrafos": [
+      "I work at HypeOne, where I take care of Spring Boot APIs from the code itself to the deployment pipeline and production monitoring.",
+      "I started out selling plugins and systems for game servers, which taught me early on how to ship software that people actually use and pay for. Since then I've worked with React, Next.js, Node, Electron and Java, and I enjoy projects most when I get to own the whole thing.",
+      "I also take on freelance work: websites, APIs, automations and desktop apps. If you have an idea, send me an email."
+    ]
+  },
+  "experiencia": {
+    "na": "at",
+    "hypeone": {
+      "periodo": "Sep 2024 – present",
+      "cargo": "Junior Full Stack Developer",
+      "descricao": "I build and maintain REST APIs with Spring Boot and Spring Data JPA, secured with JWT and OAuth2, in a microservices architecture running on AWS.",
+      "destaques": [
+        "Native compilation with Quarkus and GraalVM, cutting memory usage by about 75%",
+        "CI/CD pipelines in Jenkins with Docker, reducing deployment time by 40%",
+        "PostgreSQL and MySQL schema design and indexing to reduce latency",
+        "Production monitoring with Grafana and Prometheus"
+      ]
+    },
+    "domatech": {
+      "periodo": "Mar – Aug 2024",
+      "cargo": "Software Development Intern",
+      "descricao": "Maintained and evolved React and Next.js applications with a focus on componentization and reusable code. Built responsive interfaces in CSS/SCSS, took part in performance refactors and fixed bugs in legacy PHP systems.",
+      "destaques": []
+    },
+    "autonomo": {
+      "periodo": "2021 – 2024",
+      "cargo": "Independent Software Engineer",
+      "descricao": "Built and sold server frameworks, plugins and extensions in Lua (GLua), C++ and MySQL on BuiltByBit and GModStore. Alongside that, I built React and Next.js websites with Node and Spring Boot backends, and Node automation bots integrated with Electron apps and Discord.",
+      "destaques": [
+        "Multiplayer server infrastructure on Linux and Docker, monitored with Grafana",
+        "Process automation and data extraction with Java and Selenium",
+        "3D gameplay prototypes in C++ with Unreal Engine 5"
+      ]
+    }
+  },
+  "projetos": {
+    "printEmBreve": "{nome} screenshot coming soon",
+    "tela": "{nome} screenshot",
+    "links": {
+      "aoVivo": "Live demo",
+      "codigo": "Source code",
+      "download": "Download for Windows"
+    },
+    "linkpet": {
+      "resumo": "A customizable link-in-bio page with a virtual pet that grows with engagement.",
+      "detalhes": "A Linktree alternative with reorderable link groups, YouTube, Spotify and Instagram embeds, themes, contact capture and click analytics by source, device and country. Every profile has a pet that earns XP from likes and unlocks accessories. The backend is a standalone Spring Boot API with tiered plans and a schema versioned through Flyway migrations."
+    },
+    "contela": {
+      "resumo": "Real-time chat and screen sharing, in the browser or on the desktop.",
+      "detalhes": "The Spring Boot server only coordinates rooms and WebSocket signaling; the video goes straight from one browser to another over WebRTC, never through the server. It has room passwords, rate limiting, integration tests that attack the WebSocket, and an Electron desktop app that updates itself on every release."
+    },
+    "dynastes": {
+      "resumo": "A microservices e-commerce backend built to run on 1 GB of RAM.",
+      "detalhes": "With Quarkus and GraalVM native compilation, each service stays under 50 MB of resident memory and starts much faster. Containers are orchestrated with Docker Compose, with MySQL 8 and Redis to cut I/O bottlenecks."
+    }
+  },
+  "formacao": {
+    "periodo": "2023 – 2026",
+    "curso": "Associate Degree in Systems Analysis and Development",
+    "instituicao": "PUCPR",
+    "certificados": "Certifications",
+    "idiomas": "Languages",
+    "listaIdiomas": "Portuguese (native), English (fluent), Spanish (intermediate), French (beginner)."
+  },
+  "rodape": {
+    "convite": "Want to talk about a project or a role?",
+    "email": "Send me an email",
+    "feito": "Built with Next.js and Tailwind.",
+    "codigo": "View the source"
+  }
+}

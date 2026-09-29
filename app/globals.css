@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fundo: #1a0b24;
+  --color-superficie: #241230;
+  --color-linha: #3d2350;
+  --color-texto: #f4eaf2;
+  --color-suave: #bba6bf;
+  --color-magenta: #ff4fa3;
+
+  --font-display: var(--fonte-display), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--fonte-texto), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-fundo);
+  color: var(--color-suave);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-magenta);
+  color: var(--color-fundo);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-magenta);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.print-reservado {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-superficie) 0 10px,
+    var(--color-fundo) 10px 20px
+  );
+}
+
+.link {
+  color: var(--color-texto);
+  text-decoration: underline;
+  text-decoration-color: var(--color-magenta);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: text-decoration-thickness 150ms;
+}
+.link:hover {
+  text-decoration-thickness: 3px;
+}
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(0.25em);
+    letter-spacing: 0.04em;
+  }
+}
+.nome-entrada {
+  animation: surgir 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .nome-entrada {
+    animation: none;
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "cargo": "Desenvolvedor full-stack",
+    "resumo": "Construo produtos do começo ao fim: interface em React e Next.js, API em Spring Boot ou Node, banco, deploy e monitoramento.",
+    "foto": "Foto de Khalil Camargo"
+  },
+  "idioma": {
+    "rotulo": "Idioma"
+  },
+  "nav": {
+    "rotulo": "Seções",
+    "sobre": "Sobre",
+    "experiencia": "Experiência",
+    "projetos": "Projetos",
+    "formacao": "Formação"
+  },
+  "contato": "Contato",
+  "tecnologias": "Tecnologias",
+  "sobre": {
+    "paragrafos": [
+      "Hoje trabalho na HypeOne, onde cuido de APIs em Spring Boot, do código à pipeline de deploy e ao monitoramento em produção.",
+      "Comecei vendendo plugins e sistemas para servidores de jogos, o que me ensinou cedo a entregar software que outras pessoas usam e pagam para usar. Desde então passei por React, Next.js, Node, Electron e Java, e gosto mais dos projetos em que posso cuidar da coisa inteira.",
+      "Também pego projetos freelance: sites, APIs, automações e apps desktop. Se você tem uma ideia, me mande um e-mail."
+    ]
+  },
+  "experiencia": {
+    "na": "na",
+    "hypeone": {
+      "periodo": "set 2024 – hoje",
+      "cargo": "Desenvolvedor Full Stack Jr",
+      "descricao": "Desenvolvo e mantenho APIs REST com Spring Boot e Spring Data JPA, com autenticação JWT e OAuth2, dentro de uma arquitetura de microsserviços na AWS.",
+      "destaques": [
+        "Compilação nativa com Quarkus e GraalVM, reduzindo o uso de memória em cerca de 75%",
+        "Pipelines de CI/CD no Jenkins com Docker, cortando 40% do tempo de deploy",
+        "Modelagem e índices em PostgreSQL e MySQL para reduzir latência",
+        "Monitoramento de produção com Grafana e Prometheus"
+      ]
+    },
+    "domatech": {
+      "periodo": "mar – ago 2024",
+      "cargo": "Estagiário de desenvolvimento",
+      "descricao": "Mantive e evoluí aplicações React e Next.js, com foco em componentização e código reaproveitável. Ajustei interfaces responsivas em CSS/SCSS, participei de refatorações de performance e corrigi bugs em sistemas PHP legados.",
+      "destaques": []
+    },
+    "autonomo": {
+      "periodo": "2021 – 2024",
+      "cargo": "Desenvolvedor autônomo",
+      "descricao": "Criei e vendi frameworks de servidor, plugins e extensões em Lua (GLua), C++ e MySQL no BuiltByBit e na GModStore. Em paralelo, fiz sites em React e Next.js com backends em Node e Spring Boot, e bots de automação em Node integrados a apps Electron e ao Discord.",
+      "destaques": [
+        "Infraestrutura de servidores multiplayer em Linux e Docker, monitorada com Grafana",
+        "Automação de processos e extração de dados com Java e Selenium",
+        "Protótipos de mecânicas 3D em C++ com Unreal Engine 5"
+      ]
+    }
+  },
+  "projetos": {
+    "printEmBreve": "Print do {nome} em breve",
+    "tela": "Tela do {nome}",
+    "links": {
+      "aoVivo": "Ver ao vivo",
+      "codigo": "Código",
+      "download": "Baixar para Windows"
+    },
+    "linkpet": {
+      "resumo": "Página de links personalizável com um pet virtual que evolui com o engajamento.",
+      "detalhes": "Uma alternativa ao Linktree: grupos de links reordenáveis, embeds de YouTube, Spotify e Instagram, temas, captura de contato e analytics de cliques por origem, dispositivo e país. Cada perfil tem um pet que ganha XP com as curtidas e desbloqueia acessórios. O backend é uma API Spring Boot independente, com planos por camada e schema versionado em migrations Flyway."
+    },
+    "contela": {
+      "resumo": "Chat e compartilhamento de tela em tempo real, no navegador ou no desktop.",
+      "detalhes": "O servidor Spring Boot só coordena as salas e a sinalização via WebSocket; o vídeo vai direto de um navegador para o outro por WebRTC, sem passar pelo servidor. Tem senha de sala, limite de taxa, testes de integração que atacam o WebSocket e um app desktop em Electron que se atualiza sozinho a cada release."
+    },
+    "dynastes": {
+      "resumo": "Backend de e-commerce em microsserviços feito para rodar com 1 GB de RAM.",
+      "detalhes": "Com Quarkus e compilação nativa em GraalVM, cada serviço ficou abaixo de 50 MB de memória residente e passou a subir bem mais rápido. Os containers são orquestrados com Docker Compose, com MySQL 8 e Redis para reduzir gargalos de I/O."
+    }
+  },
+  "formacao": {
+    "periodo": "2023 – 2026",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "instituicao": "PUCPR",
+    "certificados": "Certificados",
+    "idiomas": "Idiomas",
+    "listaIdiomas": "Português nativo, inglês fluente, espanhol intermediário, francês básico."
+  },
+  "rodape": {
+    "convite": "Quer conversar sobre um projeto ou uma vaga?",
+    "email": "Me mande um e-mail",
+    "feito": "Feito com Next.js e Tailwind.",
+    "codigo": "Ver o código"
+  }
+}
